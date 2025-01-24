@@ -3,12 +3,15 @@
   "license": "0BSD",
   "version": "1.0.0",
   "main": "index.js",
+
+
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
+
   "dependencies": {
     "expo": "~52.0.23",
     "expo-status-bar": "~2.0.0",
